@@ -1,0 +1,115 @@
+:root{
+    --main-color: rgb(252, 252, 252);
+    --black:#13131a;
+    --bg:#000000;
+  
+     
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline:none;
+    border:none;
+    text-decoration: none;
+    text-transform:capitalize;
+    transition: .2s linear;
+}
+ html{
+    font-size: 62.5%;
+    overflow: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+ } 
+ html::-webkit-scrollbar{
+    width: .8rem;
+ }
+ html::-webkit-scrollbar-track{
+    width: .8rem;
+ }
+ html::-webkit-scrollbar-track{
+    background-color: transparent;
+ }
+ html::-webkit-scrollbar-thumb{
+    background:#FFFFFF;
+    border-radius: 5rem;
+ }
+ body{
+    background: var(--bg);
+   
+ }
+ .header{
+    display: flex;
+    justify-content: space-between;
+    background: var(--bg);
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 3rem; left: 0;
+    right: 0;
+    z-index: 1000;
+
+ }
+ .header .logo{
+    height: 6rem;
+ }
+.logo h1{
+   margin-top: 1rem;
+font-size: 3rem;
+color: aliceblue;
+ }
+ .header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #f7f6f6;
+
+ }
+ .header .navbar a:hover{
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: 5rem;
+ }
+ .header .icons div{
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+ }
+ .header.icons div:hover{
+   color: var(--main-color);
+ }
+#menu-btn{
+    display: none;
+ }
+ .header .search-form{
+    position: absolute;
+    top: 115%;
+    right:7%;
+    background: #FFFFFF;
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin:top ;
+ }
+ .header .search-form input{
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    color: var(--black);
+    padding: 1rem;
+    text-transform: none;
+ }
+
+ .header .search-form label{
+    cursor: pointer;
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+    color: var(--black);
+ }
+ .header .search-form label:hover{
+    color: var(--main-color);
+ }
