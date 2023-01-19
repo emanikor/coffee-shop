@@ -1,7 +1,7 @@
 :root{
     --main-color: rgb(252, 252, 252);
     --black:#13131a;
-    --bg:#000000;
+    --bg:#1f1d1d;
   
      
 }
@@ -178,6 +178,61 @@ color: aliceblue;
     width: 100%;
     text-align: center;
  }
+ .home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('images/coffeebackground.jpg') no-repeat;
+    background-size:cover ;
+    background-position: center;
+
+ }
+ section{
+   padding:2rem 7%;
+ }
+ .home .content{
+    max-width:60rem;
+   
+ 
+ }
+ .home .content h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;  
+ }
+ .home .content h1{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 68px;
+    color: #BC9A6C;
+ }
+ .home .content p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin-top: 32px;
+color: #FFFFFF;
+ }
+ .home .content .orders{
+  margin-top: 4rem;
+ }
+ .home .content .orders a{
+    
+    background-color:#BC9A6C;
+    padding: 1.3rem 6rem;
+    color: rgb(248, 246, 245);
+   font-size: 1.7rem;
+ }
+.home .content img{
+  
+}
  @media(max-width:600px){
     html{
         font-size: 55%;
