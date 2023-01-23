@@ -213,7 +213,7 @@ border-radius: 10px;
     color: #BC9A6C;
  }
  section{
-   padding:2rem 7%;
+   padding:1rem 5%;
  }
  .home{
     height: 88vh;
@@ -293,13 +293,15 @@ color: #FFFFFF;
 }
 .about{
     background-color: #FFFFFF;
+    
+    
 }
 .about .row{
     display: flex;
     align-items: center;
      margin-top: 120px;
     flex-wrap: wrap;
-  
+    flex-direction: row;
 }
 
 .about .row .content h2{
@@ -348,6 +350,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: 26px;
 padding: .3rem 3rem;
+
   }
   .about-btn:hover{
     letter-spacing:.09rem;
@@ -357,22 +360,66 @@ padding: .3rem 3rem;
     margin-right: 5px;
   }
 .about .row .about-image{
+   margin-bottom: 100px;
     flex:1 1 45rem;
+    
+}
+.about .row .about-image img{
+ max-width: 600px ;
+ margin-left: 50px;
+ margin-top: 30px;
 }
 .about-image .image2 {
   width: 3rem;
 }
+
 .pages{
     background-color: #FFFFFF;
    
 }
-.pages-category{
- justify-content: center;
-   align-items: center; 
+.pages .pages-container{
+   margin-left: 50px;
+   align-items: center;
+   justify-content: center;
+   margin: 0.5rem 0;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     column-gap: 20rem;
    
-    margin-top: 120px;
+  
 }
-.pages-category h1{
+.pages .pages-container .pages-items{
+    position: relative;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  
+}
+.pages .pages-container .pages-items .content h2{
+    font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+color: #4F4F4F;
+font-family: 'Helvetica';
+}
+.pages .pages-container .pages-items .content .cafe-heading{
+   font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+color: #4F4F4F;
+font-family: 'Helvetica';
+text-align: right;
+}
+.pages .pages-container .pages-items .content .content-paragraph{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #4F4F4F;
+}
+.pages-heading{
     font-family: 'Helvetica';
 font-style: normal;
 font-weight: 700;
@@ -381,7 +428,7 @@ line-height: 56px;
 text-align: center;
 color: #333333;
 }
-.pages-category p{
+.pages-paragraph{
     font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -390,10 +437,74 @@ line-height: 24px;
 text-align: center;
 color: #4F4F4F;
 }
-.pages .content{
-
+.pages .pages-image{
+   position: absolute;
+   justify-content: center;
+   align-items: center;
+  margin-top: 140px;
+  margin-left: 420px;
+  max-width: 344.26px;
+  min-height: 450px;
 }
-
+.pages .pages-image img{
+   max-width: 300.26px;
+min-height: 450px;
+}
+.page2-slunder{
+   margin-top: 100px;
+}
+.page2-image img{
+   width: 500px;
+height: 560px;
+}
+.page2-slunder .page2-quality{
+   display: flex;
+    align-items: center;
+     margin-top: 120px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.page2-slunder .page2-quality .content{
+   margin-left: 140px;
+}
+.page2-slunder .page2-quality .content  img{
+   margin-top: 10px;
+   max-width: 100px;
+   max-height: 98px;
+   
+  
+}
+.page2-slunder .page2-quality .content h3{
+     
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26px;
+      color: #333333;
+}
+.page2-slunder .page2-quality .content li{
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 26px;
+   color: #4F4F4F;
+      color: #4F4F4F;
+}
+.page2-slunder .page2-quality .content h2{
+   font-family: 'Helvetica';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 56px;
+   color: #333333;
+}
+.page2-slunder .page2-quality .content .page2-size-paragraph{
+   font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #4F4F4F;
+   color: #4F4F4F;
+}
 
  @media(max-width:600px){
     html{
@@ -477,8 +588,31 @@ margin-top: 20px;
     margin-top: 2rem;
  } 
  .about .row .about-image img{
-    max-width: 400px;
+    max-width: 380px;
     height: 400px;
+    margin-left: 10px;
+    margin-top: 0;
+    
+  }
+  .about .row .content {
+   margin-top: 10px;
+  }
+  .about .row .content h2{
+     font-size: 3.3rem;
+     line-height: 30px;
+  }
+  .about .row .content .heading{
+   margin-top: 5px;
+  }
+  .about .row .content p{
+   font-size: 1.5rem;
+   line-height: 17px;
+  
+  }
+  .about .row .content .about-btn{
+   font-size: 1.5rem;
+   width: 170px;
+   height: 50px;
   }
   .home .content h3{
 
@@ -487,5 +621,93 @@ margin-top: 20px;
     line-height: 24px;
     color: #FFFFFF;  
  }
+ .pages .pages-container{
+   margin-left: 10px;
+   align-items: center;
+   justify-content: center;
+   margin: 0.5rem 0;
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     column-gap: .7rem;
+  
+}
+.pages .pages-paragraph{
+   font-size: 1.5rem;
+}
+.pages .pages-heading{
+   font-size: 3rem;
+}
 
+.pages .pages-container .pages-items .content .cafe-heading{
+font-size: 16px;
+line-height: 20px;
+text-align: left;
+}
+.pages .pages-container .pages-items .content h2{
+
+font-size: 16px;
+line-height: 20px;
+color: #4F4F4F;
+
+}
+
+.pages .pages-container .pages-items .content .content-paragraph{
+ 
+font-size: 13px;
+line-height: 17px;
+
+}
+.pages .pages-container .pages-items{
+    position: relative;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  
+}
+ .pages .pages-image img{
+   max-width: 30.26px;
+min-height: 40px;
+display: none;
+}
+
+/*pages slander*/
+ .page2-slunder{
+   margin-top: 50px;
+   margin: 0rem 0;
+}
+.page2-slunder .page2-quality .page2-image img{
+   max-width: 400px;
+max-height: 350px;
+}
+.page2-slunder .page2-quality{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+     margin-top: 120px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.page2-slunder .page2-quality .content{
+   margin-left: 2px;
+   margin-top: 30px;
+}
+
+
+.page2-slunder .page2-quality .content h2{
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+
+}
+.page2-slunder .page2-quality .content .page2-size-paragraph{
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+width: 33rem;
+}
+.page2-slunder{
+ 
+ }
+ 
  }
