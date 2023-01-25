@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>coffe-shop</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -95,19 +97,49 @@
 <!--home-section-->
 
     <section class="home" id="home">
-        <div class="content">
-            <h3>Welcome to coffee hut</h3>
-            <h1>Heal the world <br>
-                with coffee</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                    Varius sed pharetra dictum neque massa congue</p>
-                    <div class="orders">
-                    <a href="#">Order now</a>
-                    
+       
+        <div class=" swiper home-slider">
+            <div class=" swiper-wrapper wrapper">
+                <div class=" swiper-slide slide slide1 ">
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3>Welcome to coffee hut</h3>
+                        <h1>Heal the world <br>
+                            with coffee</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                                Varius sed pharetra dictum neque massa congue</p>
+                                <div class="orders">
+                                <a href="#">Order now</a>
+                                <img src="..images/coffee.png" alt="">
+                    </div>
                 </div>
-                <div class="home-img ">
-            <img src=".images/coffee.png" alt="">
-        </div>
+                <div class="swiper-slide slide slide2 ">
+                    <div class="content">
+                        <img src="" alt="">
+                        <!-- <h3>Welcome to coffee hut</h3>
+                        <h1>Heal the world <br>
+                            with coffee</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                                Varius sed pharetra dictum neque massa congue</p>
+                                <div class="orders">
+                                <a href="#">Order now</a> -->
+                    </div>
+                </div>
+                <div class="swiper-slide slide slide3 ">
+                    <div class="content">
+                        <img src="" alt="">
+                        <!-- <h3>Welcome are open</h3>
+                        <h1>Heal the world <br>
+                            with coffee</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                                Varius sed pharetra dictum neque massa congue</p>
+                                <div class="orders">
+                                <a href="#">Order now</a> -->
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                
+            </div>
         </div>
     </section>
     <!--about-section-->
@@ -221,8 +253,8 @@
             ntesque bibendum non dui volutpat fringilla bibendum. Urna,elit augue <br> urn
             a, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus 
             risus.<br> Lacus nisi, et ac dapibus sit eu velit in consequat.</h4>
-           <l1><img src="images/quality-1.png" alt=""> Experienced chefs
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo augue nibh .</p></l1><br>
+           <l1><img src="images/quality-1.png" alt=""> Experienced chefs<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo augue nibh .</p><br>
+      
                 <l1><img src="images/quality-1.png" alt="">  Fresh & organic Foods<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo augue nibh .</p></l1></l1><br>
                 <l1><img src="images/quality-1.png" alt="">  Different coffee & Drinks<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo augue nibh .</p></l1></l1>
            
@@ -231,6 +263,24 @@
     </div>
 </div>
    </section>
+<!--menu section-->
+<section class="menu" id="menu">
+    <div class="menu-row">
+        <h1 class="menu-heading">
+            Our Favorites Menu
+        </h1>
+        <center><p class="menu-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+            Varius sed pharetra dictum neque </p></center>
+          
+    </div>
+
+    
+
+</section>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
 
 
               <script src="app.js"></script>
