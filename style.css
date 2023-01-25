@@ -213,7 +213,7 @@ border-radius: 10px;
     color: #BC9A6C;
  }
  section{
-   padding:1rem 7%;
+   padding:1rem 5%;
  }
 
  
@@ -222,13 +222,7 @@ border-radius: 10px;
    margin-top: 15rem;
  
  } 
- .home .home-slide .wrapper .slide .content{
-   display: flex;
-   align-items: center;
-    margin-top: 120px;
-   flex-wrap: wrap;
-   flex-direction: row;
- }
+ 
  .home .home-slider .slide .content h3{
     font-family: 'Inter';
     font-style: normal;
