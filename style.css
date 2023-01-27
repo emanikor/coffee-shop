@@ -612,6 +612,161 @@ margin-top: 2rem;
    background-color: #BC9A6C;
    cursor: pointer;
 }
+/*chefs-section*/
+.chefs{
+   background-color: #FFFFFF;
+   width: 100%;
+}
+.chefs .chef-heading{
+   font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+font-feature-settings: 'kern' off;
+color: #333333;
+}
+.chefs p{
+   font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #4F4F4F;
+
+}
+ .chefs-row .chef-content .chef-image img{
+  width: 100%;
+  
+}
+.chefs .chefs-row .chef-content {
+position: relative;
+z-index: 2;
+text-align: center;
+}
+
+
+.chefs .chefs-row {
+   margin-top: 4rem;
+ width: 100%;
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+ grid-gap:.5rem;
+ margin-left: 50px;
+}
+.chefs .chefs-row:hover{
+   transform: rotate(360);
+   cursor: pointer;
+
+}
+/* blog-section */
+.blog{
+   background-color: #FFFFFF;
+
+}
+.blog-heading{
+   font-family: 'Helvetica';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 56px;
+   text-align: center;
+   font-feature-settings: 'kern' off;
+   color: #333333;
+   }
+   .blog p{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #4F4F4F;
+   }
+   .blog .blog-row{
+      margin-top: 6rem;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+      grid-gap:.5rem;
+      margin-left: 4rem;
+   }
+   .blog-row .blog-card{
+      width: 100%;
+    
+   }
+   .blog-row .blog-card .blog-content {
+      margin-top: 1rem;
+      margin-left: 30px;
+   }
+   .blog-row .blog-card .blog-content h3{
+      font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+      font-size: 16px;
+line-height: 24px;
+color: #4F4F4F;
+   }
+   .blog-row .blog-card .blog-content h1{
+      font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+color: #333333;
+margin-top: 1rem;
+   }
+   .blog-statement{
+      font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #4F4F4F;
+margin-top: 1rem;
+   }
+   .blog-row .blog-card .blog-content .blog-btn a{
+      color: #BC9A6C;
+      font-size: 1.7rem;
+      font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+   }
+   .blog-row .blog-card .blog-content .blog-btn{
+      width: 230px;
+      height: 64px;
+      background-color: transparent;
+      border:1px solid #BC9A6C;
+      text-align: center;
+      border-radius: 5px;
+      padding: 2rem 1rem;
+      margin-top: 30px;
+      
+   }
+   .blog-row .blog-card .blog-content .blog-btn:hover{
+      letter-spacing: .7rem;
+   }
+   .clients-logo{
+      background-color: #FFFFFF;
+   }
+   .clients-logo h3{
+      font-family: 'Miniver';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26px;
+      color: #BC9A6C;
+      margin-top: 30px;
+      
+   }
+   .clients-logo .client-row{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      margin-left: 80px;
+    margin-top: 70px;
+   }
  @media(max-width:600px){
     html{
         font-size: 55%;
