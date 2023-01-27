@@ -577,6 +577,41 @@ color: #4F4F4F;
   
 }
 
+.menu .menu-row .nav-menu .container{
+   margin-top: 30px;
+   width:30rem;
+   height: 40rem;
+   flex-direction: column;
+   background-color:#EDEAE3;
+   padding: .1rem 5px 0px 5px;
+   margin-left: 90px;
+   
+}
+.menu .menu-row .nav-menu .container .active{
+   margin-top: 11px;
+   color: #BC9A6C;
+}
+.menu .menu-row .nav-menu .container > div a{
+margin-top: 2rem;
+}
+.menu .menu-row .nav-menu .container .menu-list-btn a{
+   margin-top: 2rem;
+   background-color: white;
+   flex-direction: column;
+   display: grid;
+  padding: 2rem ;
+   height: 60px;
+   width: 25rem;
+   margin-left: 30px;
+   justify-content: center;
+   color: rgb(10, 10, 10);
+  font-size: 1.7rem;
+}
+.menu .menu-row .nav-menu .container a:hover{
+   color: #EDEAE3;
+   background-color: #BC9A6C;
+   cursor: pointer;
+}
  @media(max-width:600px){
     html{
         font-size: 55%;
