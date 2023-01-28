@@ -661,6 +661,9 @@ text-align: center;
    cursor: pointer;
 
 }
+/* testimonials */
+
+
 /* blog-section */
 .blog{
    background-color: #FFFFFF;
@@ -698,7 +701,7 @@ text-align: center;
     
    }
    .blog-row .blog-card .blog-content {
-      margin-top: 1rem;
+      margin-top: .5rem;
       margin-left: 30px;
    }
    .blog-row .blog-card .blog-content h3{
@@ -717,6 +720,12 @@ font-size: 20px;
 line-height: 28px;
 color: #333333;
 margin-top: 1rem;
+   }
+   .fa-user{
+      color: #BC9A6C;
+   }
+   .fa-calendar-days{
+      color: #BC9A6C;
    }
    .blog-statement{
       font-family: 'Helvetica';
@@ -751,14 +760,38 @@ font-weight: 400;
    .clients-logo{
       background-color: #FFFFFF;
    }
-   .clients-logo h3{
+   .clients-heading{
+      font-family: 'Helvetica';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 56px;
+   text-align: center;
+   font-feature-settings: 'kern' off;
+   color: #333333;
+
+   }
+   .clients-logo h1{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+font-feature-settings: 'kern' off;
+color: #333333;
+text-align: center;
+margin-top: 1rem;
+
+   }
+   .clients-logo h2{
       font-family: 'Miniver';
       font-style: normal;
       font-weight: 400;
       font-size: 18px;
       line-height: 26px;
       color: #BC9A6C;
-      margin-top: 30px;
+      margin-top: 150px;
+      text-align: center;
       
    }
    .clients-logo .client-row{
@@ -767,6 +800,63 @@ font-weight: 400;
       margin-left: 80px;
     margin-top: 70px;
    }
+   .contact-email{
+      background-color: #FFFFFF;
+   }
+   .contact .container{
+      max-width: 100%;
+      height: 10rem;
+     
+    
+      display: flex;
+      align-items: center;
+      flex: 1 1 1rem;
+      margin-top: 10rem;
+     position: relative;
+      margin: 30px 120px 12px;
+
+   }
+   .contact h1{
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+      color: #333333;
+      margin-left: 20rem;
+   }
+   .contact .container .form{
+      margin-left: 20rem;
+
+   }
+   .contact .container .form input{
+      width:350px;
+      height: 50px;
+      border-top:1px solid #BC9A6C;
+      border-bottom:1px solid #BC9A6C;
+      border-left: 1px solid #BC9A6C;
+      padding: 10px ;
+      font-size: 1.5rem;
+   }
+   .contact .container .form button{
+      width: 10%;
+      min-height: 50px;
+      position: absolute;
+      background: #BC9A6C;
+      color: #FFFFFF;
+      font-family: 'Helvetica';
+      font-style: normal;
+   }
+   .contact .container .form button:hover{
+      background: #1f1d1d;
+      cursor: pointer;
+      line-height: 1rem;
+      transition: .3s;
+   
+   }
+   /* footer-section */
+   
+    
  @media(max-width:600px){
     html{
         font-size: 55%;
