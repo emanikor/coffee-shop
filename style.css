@@ -53,14 +53,15 @@
     display: flex;
     justify-content: space-between;
     background: none ;
-   
+   position: fixed;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 7%;
     border-bottom: var(--border);
-     position: fixed;
-    top: 3rem; left: 0;
+    top: 0; left: 0;
     right: 0;
+    opacity: .7;
+    background-color:#464343;
     z-index: 1000;
     
 
@@ -78,19 +79,13 @@ font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 32px;
-/* identical to box height, or 133% */
-
 margin-top: 1rem;
-/* fffffff */
-
-
  }
  
  .header .navbar a{
     margin: 0 1rem;
     font-size: 1.6rem;
     color: #f7f6f6;
-
  }
  .header .navbar a:hover{
     color: var(--main-color);
@@ -150,7 +145,6 @@ margin-top: 1rem;
     right: -100%;
     height: calc(100vh -9.5rem);
     width: 40rem;
-   
     background: #140d03;
     padding: 0 1.5rem;
     padding-bottom: 29rem;
@@ -158,7 +152,7 @@ border-radius: 4px;
  }
  .header .cart-items-container.active{
     right:0;
-    transition: .8s;
+    transition: .3s;
  }
 
  .header  .cart-items-container .cart-item{
@@ -1029,7 +1023,7 @@ margin-top: 1rem;
  .footer__logo {
    font-family: 'Pacifico', cursive;
    font-weight: 400;
-   text-transform: lowercase;
+   text-transform: capitalize;
    font-size: 1.5rem;
    font-family: 'Helvetica';
  font-style: normal;
@@ -1233,7 +1227,8 @@ color: #FFFFFF;
  }
 
  .header{
-    top: 1rem;  
+    margin-top: 0; 
+    opacity: .7;
  }
 
  .header .navbar{
@@ -1259,7 +1254,7 @@ color: #FFFFFF;
  }
 
  .header .search-form{
-    width: 90%;
+    width: 80%;
     right: 2rem;
  }
 
